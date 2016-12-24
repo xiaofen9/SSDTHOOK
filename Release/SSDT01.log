@@ -1,0 +1,15 @@
+﻿生成启动时间为 2015/6/5 19:10:59。
+     1>项目“C:\Users\Administrator\Desktop\HookDemo\SourceCode\Ring0\SSDT01\SSDT01\SSDT01.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\VS2013\VC\bin\CL.exe /c /IC:\WinDDK\7600.16385.1\inc\ddk /IC:\WinDDK\7600.16385.1\inc\crt /IC:\WinDDK\7600.16385.1\inc\api /Zi /nologo /W1 /WX- /Ox /Ob2 /Oi /Oy- /GL /D WIN32 /D _CONSOLE /D _X86_ /D _DDK_ /D _NDEBUG /D DBG=0 /X /GF /Gm- /MT /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"Release\\" /Fd"Release\vc120.pdb" /Gz /TC /analyze- /errorReport:prompt SSDT01.c SSDTHook.c
+         SSDT01.c
+         SSDTHook.c
+       Link:
+         E:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\HookDemo\SourceCode\Ring0\SSDT01\SSDT01\\SSDT01\Release\\SSDT01.sys" /INCREMENTAL:NO /NOLOGO /LIBPATH:\lib\WXP\i386 ntoskrnl.lib hal.lib int64.lib ntstrsafe.lib exsup.lib ksecdd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB /MANIFEST:NO /DEBUG /PDB:"C:\Users\Administrator\Desktop\HookDemo\SourceCode\Ring0\SSDT01\SSDT01\\SSDT01\Release\SSDT01.pdb" /SUBSYSTEM:NATIVE /Driver /OPT:REF /LTCG /TLBID:1 /ENTRY:"DriverEntry" /IMPLIB:"C:\Users\Administrator\Desktop\HookDemo\SourceCode\Ring0\SSDT01\SSDT01\\SSDT01\Release\SSDT01.lib" /MACHINE:X86 /SAFESEH Release\SSDT01.obj
+         Release\SSDTHook.obj
+     1>LINK : fatal error LNK1181: 无法打开输入文件“ntoskrnl.lib”
+     1>已完成生成项目“C:\Users\Administrator\Desktop\HookDemo\SourceCode\Ring0\SSDT01\SSDT01\SSDT01.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.25
