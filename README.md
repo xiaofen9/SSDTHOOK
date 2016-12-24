@@ -18,4 +18,4 @@ Windows 7
 
 
 
-There are further explain about the project in report.doc in CHINESE.
+There are further explain about the project in README.docx in CHINESE.
