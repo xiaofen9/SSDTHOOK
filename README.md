@@ -17,11 +17,5 @@ Windows 7
 
 
 
-  init();
-  //serilized
-  startTiming();  
-  evolution();
-  stopWithPrintTiming(); 
-</code></pre>
 
-There are further explain about the project in report.pdf in CHINESE.
+There are further explain about the project in report.doc in CHINESE.
