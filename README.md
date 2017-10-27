@@ -1,7 +1,7 @@
-#SSDTHOOK 
+# Rootkit 
 
 ##Intro
-This is a  project about anti-killing. SSDTHOOK implements a driver-level hook in SSDT TABLE of windows system.
+This is a  project about rootkit on Win32. SSDTHOOK implements a driver-level hook in SSDT TABLE of windows system.
 I complied it on VS2013. If you want to use the code, you are recommand to import in VS2013...
 
 ##System adaptation
